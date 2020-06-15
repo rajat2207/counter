@@ -1,0 +1,94 @@
+
+body{
+    margin: 0;
+    background-color:rgb(129, 241, 236);
+}
+
+#div1{
+    width: 98%;
+    height: auto;
+    min-height: 30vh;
+    background-image: linear-gradient(to right,rgb(97, 184, 212),rgb(199, 75, 199));
+    margin: auto;
+    color:white;
+}
+
+#div1 h1{
+    line-height: 3rem;
+    text-align: center;
+    letter-spacing: 0.4rem;
+    word-spacing: 1rem;
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+#div1 input{
+    outline:none ;
+    height: 1.5rem;
+    width: 20%;
+    margin-left: 15%;
+    /* border-radius:50px; */
+    border:2px solid lightgrey;
+    font-size: 1rem;
+    padding: 0.3rem;
+    color:black;
+    margin-bottom: 2rem;
+}
+
+button{
+    margin-left: 35%;
+    height: 3rem;
+    width: 150px;
+    background-color:whitesmoke;
+    outline: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    color:black;
+    font-weight:600;
+    border:none;
+    box-shadow:0 0 25px whitesmoke;
+}
+
+#div2{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    background-color:rgb(139, 131, 131);
+    height: 22vh;
+    text-align: center;
+    position:relative;
+
+}
+
+#div3{
+    height: 10vh;
+    width: 10vh;
+    background-color: aliceblue;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    border: 4px solid darkgrey;
+    color : black;
+    font-size: 3rem;
+    overflow: hidden;
+}
+
+p{
+    height: 100%;
+    width: 100%;
+    /* line-height: 0.1rem; */
+    border-top: 1.5px solid black;
+    margin: 0;
+    background-color:white;
+}
+
+p.next{
+    position: absolute;
+    top: 10vh;
+}
+
+p.animate{
+    transition: all 0.5s;
+    top: 0vh;
+}
